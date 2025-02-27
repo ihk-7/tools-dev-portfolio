@@ -4,11 +4,24 @@
   padding: 0;
 }
 
+/*Header started here*/
+
+header{
+  background-color: #FFF8F3;
+  background-image: url(images/developer.png), url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: 23px center, right bottom;
+}
+
+
 .dark-01 {
   color: #181818;
 }
 .dark-02 {
   color: #474747;
+}
+.dark-03 {
+  color:#757575
 }
 
 .orange-01{
@@ -19,7 +32,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 230px 0px 226px;
+  margin: 0px 230px 0px 226px;
+  padding-top: 51px;
 }
 
 nav ul{
@@ -50,4 +64,60 @@ nav a {
   font-size: 20px;
   border-radius: 4px;
   font-weight: 700;
+}
+.btn-secondary {
+  color:#FD6E0A;
+  padding: 18px 36px;
+  background-color: white;
+  border-color: #FD6E0A;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+/* Banner section started here*/
+
+.banner-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-info{
+  max-width: 585px;
+  margin: 71px 140px 0px 230px;
+}
+
+
+.banner-greets {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner-name{
+  font-size: 85px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.banner-desc{
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.btn-download{
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn-contact {
+  border: 1px solid;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.banner-section img{
+  margin-right: 38px;
 }
