@@ -85,7 +85,7 @@ nav a {
 
 .banner-info{
   max-width: 585px;
-  margin: 71px 140px 0px 230px;
+  margin: 71px 110px 0px 230px;
 }
 
 
@@ -110,14 +110,30 @@ nav a {
   margin-right: 30px;
   font-size: 20px;
   font-weight: 700;
+  padding: 19px 17px 18px 21px;
 }
 
 .btn-contact {
   border: 1px solid;
   font-size: 20px;
   font-weight: 700;
+  padding: 19px 23px 18px 21px;
 }
 
 .banner-section img{
   margin-right: 38px;
+  margin-top: 47px;
+}
+
+.banner-section button{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button svg{
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
