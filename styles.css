@@ -1,18 +1,17 @@
 * {
-  font-family: "Open Sans",sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
 }
 
 /*Header started here*/
 
-header{
-  background-color: #FFF8F3;
+header {
+  background-color: #fff8f3;
   background-image: url(images/developer.png), url(images/header_bg.png);
   background-repeat: no-repeat;
   background-position: 23px center, right bottom;
 }
-
 
 .dark-01 {
   color: #181818;
@@ -21,11 +20,11 @@ header{
   color: #474747;
 }
 .dark-03 {
-  color:#757575
+  color: #757575;
 }
 
-.orange-01{
-  color: #FD6E0A;
+.orange-01 {
+  color: #fd6e0a;
 }
 
 nav {
@@ -36,7 +35,7 @@ nav {
   padding-top: 51px;
 }
 
-nav ul{
+nav ul {
   display: flex;
   gap: 51px;
   align-items: center;
@@ -59,17 +58,17 @@ nav a {
 .btn-primary {
   color: white;
   padding: 18px 36px;
-  background-color: #FD6E0A;
+  background-color: #fd6e0a;
   border: none;
   font-size: 20px;
   border-radius: 4px;
   font-weight: 700;
 }
 .btn-secondary {
-  color:#FD6E0A;
+  color: #fd6e0a;
   padding: 18px 36px;
   background-color: white;
-  border-color: #FD6E0A;
+  border-color: #fd6e0a;
   font-size: 20px;
   border-radius: 4px;
   font-weight: 700;
@@ -77,36 +76,35 @@ nav a {
 
 /* Banner section started here*/
 
-.banner-section{
+.banner-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.banner-info{
+.banner-info {
   max-width: 585px;
   margin: 71px 110px 0px 230px;
 }
-
 
 .banner-greets {
   font-size: 45px;
   font-weight: 600;
 }
 
-.banner-name{
+.banner-name {
   font-size: 85px;
   margin-bottom: 10px;
   font-weight: 700;
 }
 
-.banner-desc{
+.banner-desc {
   font-size: 18px;
   margin-bottom: 30px;
   line-height: 30px;
 }
 
-.btn-download{
+.btn-download {
   margin-right: 30px;
   font-size: 20px;
   font-weight: 700;
@@ -120,18 +118,18 @@ nav a {
   padding: 19px 23px 18px 21px;
 }
 
-.banner-section img{
+.banner-section img {
   margin-right: 38px;
   margin-top: 47px;
 }
 
-.banner-section button{
+.banner-section button {
   display: inline-flex;
   align-items: center;
   gap: 10px;
 }
 
-button svg{
+button svg {
   width: 24px;
   height: 24px;
   margin-right: 10px;
