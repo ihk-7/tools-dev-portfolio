@@ -145,8 +145,8 @@ main {
   margin-bottom: 130px;
 }
 
-.about-section{
-  background-color: #FFF8F3;
+.about-section {
+  background-color: #fff8f3;
   height: 550px;
   border-radius: 5px;
   display: flex;
@@ -154,40 +154,100 @@ main {
   justify-content: center;
 }
 
-.about-me-container{
+.about-me-container {
   margin: 0pc 156px;
   background-color: white;
   border: 1px solid;
 }
 
-.about-me{
+.about-me {
   margin-bottom: 30px;
   font-size: 35px;
   font-weight: 700;
   text-align: center;
 }
 
-.about-desc{
+.about-desc {
   margin-bottom: 30px;
   font-size: 18px;
   font-weight: 400;
   text-align: center;
 }
 
-.about-details{
+.about-details {
   display: flex;
   justify-content: space-between;
   text-align: center;
   margin: 0px 25px;
 }
 
-.detail-item h3{
-  color:#757575;
+.detail-item h3 {
+  color: #757575;
   font-size: 20px;
   font-weight: 400;
 }
-.detail-item p{
+.detail-item p {
   color: #474747;
   font-size: 20px;
   font-weight: 700;
+}
+
+/*skill section started here */
+
+.what-section{
+  margin-top: 130px;
+}
+
+
+.sec-title {
+  color: #181818;
+  font-size: 35px;
+  font-family: Open Sans;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sec-desc {
+  color: #757575;
+  font-size: 18px;
+  font-family: Open Sans;
+  font-weight: 400;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-left: 116px;
+  margin-right: 116px;
+}
+
+.skill-section{
+  display: flex;
+  gap: 24px;
+}
+
+.skills {
+  padding: 30px 33px;
+  height: 320px;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+
+.skills img{
+  margin-bottom: 30px;
+  width: 44px;
+  height: 44px;
+}
+
+.skills h3 {
+  color: #181818;
+  font-size: 20px;
+  font-family: Open Sans;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.skills p {
+  color: #757575;
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 28px;
 }
