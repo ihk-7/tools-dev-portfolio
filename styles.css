@@ -135,3 +135,59 @@ button svg {
   margin-right: 10px;
   vertical-align: middle;
 }
+
+/*About me started here*/
+
+main {
+  max-width: 1140px;
+  margin: 0px auto;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.about-section{
+  background-color: #FFF8F3;
+  height: 550px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me-container{
+  margin: 0pc 156px;
+  background-color: white;
+  border: 1px solid;
+}
+
+.about-me{
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.about-desc{
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.about-details{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0px 25px;
+}
+
+.detail-item h3{
+  color:#757575;
+  font-size: 20px;
+  font-weight: 400;
+}
+.detail-item p{
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+}
