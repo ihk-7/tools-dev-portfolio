@@ -257,14 +257,20 @@ main {
   margin-top: 130px;
 }
 
+.summary-section h2{
+  text-align: center; margin-bottom: 130px
+}
+
 .summary-element {
   display: flex;
   gap: 24px;
 }
+
 .summary-element hr {
   margin-bottom: 30px;
   border: 1px #d1d1d1 solid;
 }
+
 
 .summary-education h2,
 .summary-experience h2 {
@@ -314,4 +320,429 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+}
+
+
+
+
+
+
+/* Making Mobile responsive */
+
+@media screen and (max-width:576px){
+
+
+  * {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*Header started here*/
+  
+  body{
+   
+
+  }
+
+  header {
+    background-color: #fff8f3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: 23px center, right bottom;
+
+    background-image: none;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .dark-01 {
+    color: #181818;
+  }
+  .dark-02 {
+    color: #474747;
+  }
+  .dark-03 {
+    color: #757575;
+  }
+  
+  .orange-01 {
+    color: #fd6e0a;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 230px 0px 226px;
+    padding-top: 51px;
+
+
+    margin: 0px auto;
+    padding: 0px;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 51px;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .nav-name {
+    font-size: 45px;
+    font-weight: 800;
+  }
+  
+  nav li {
+    list-style: none;
+    font-size: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .btn-primary {
+    color: white;
+    padding: 18px 36px;
+    background-color: #fd6e0a;
+    border: none;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 700;
+  }
+  .btn-secondary {
+    color: #fd6e0a;
+    padding: 18px 36px;
+    background-color: white;
+    border-color: #fd6e0a;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 700;
+  }
+  
+  /* Banner section started here*/
+  
+  .banner-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    flex-direction: column-reverse;
+    margin: 0px 30px;
+  }
+  
+  .banner-info {
+    max-width: 585px;
+    margin: 71px 110px 0px 230px;
+    margin: 0px 20px;
+    padding: 0px;
+    width: 100%;
+    padding-bottom: 25px;
+  }
+  
+  .banner-greets {
+    font-size: 45px;
+    font-weight: 600;
+    padding-left: 10px;
+    margin-top: 20px;
+  }
+  
+  .banner-name {
+    font-size: 85px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    padding-left: 10px;
+  }
+  
+  .banner-desc {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+  }
+  
+  .btn-download {
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 19px 17px 18px 21px;
+    margin-bottom: 15px;
+  }
+  
+  .btn-contact {
+    border: 1px solid;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 19px 23px 18px 21px;
+    
+  }
+  
+  .banner-section img {
+    margin-right: 38px;
+    margin-top: 47px;
+    width: 100%;
+  }
+  
+  .banner-section button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  button svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  /*About me started here*/
+  
+  main {
+    max-width: 1140px;
+    margin: 0px auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+    margin: 0px;
+    overflow: hidden;
+  }
+  
+  .about-section {
+    background-color: #fff8f3;
+    height: 550px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+    height: auto;
+  }
+  
+  .about-me-container {
+    margin: 0pc 156px;
+    background-color: white;
+    border: 1px solid;
+
+    margin: 20px 0px;
+    padding: 10px;
+    width: 80%;
+    border: none;
+  }
+  
+  .about-me {
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+
+    margin: 15px auto;
+    padding: 0px;
+    width: 100%;
+  }
+  
+  .about-desc {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+
+    margin: 15px auto;
+    padding: 0px;
+    width: 100%;
+  }
+  
+  .about-details {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0px 25px;
+
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px auto;
+  }
+  
+  .detail-item h3 {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .detail-item p {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  /*skill section started here */
+  
+  .what-section {
+    margin-top: 130px;
+
+    margin: 0px;
+    margin-top: 50px;
+  }
+  
+  .sec-title {
+    color: #181818;
+    font-size: 35px;
+    font-family: Open Sans;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+
+
+    margin: 0px;
+  }
+  
+  .sec-desc {
+    color: #757575;
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: 400;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 116px;
+    margin-right: 116px;
+
+    margin: 10px auto;
+    padding: 20px 20px;
+  }
+  
+  .skill-section {
+    display: flex;
+    gap: 24px;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    margin-left: 20px;
+  }
+  
+  .skills {
+    padding: 30px 33px;
+    height: 320px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  }
+  
+  .skills img {
+    margin-bottom: 30px;
+    width: 44px;
+    height: 44px;
+  }
+  
+  .skills h3 {
+    color: #181818;
+    font-size: 20px;
+    font-family: Open Sans;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .skills p {
+    color: #757575;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  
+  /*Summary section started here*/
+  
+  .summary-section {
+    margin-top: 130px;
+
+    margin-top: 40px;
+  }
+  
+  .summary-section h2 {
+    margin: 0px;
+    margin-bottom: 30px;
+  }
+
+  .summary-element {
+    display: flex;
+    gap: 24px;
+
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .summary-element hr {
+    margin-bottom: 30px;
+    border: 1px #d1d1d1 solid;
+  }
+  
+  .summary-education h2,
+  .summary-experience h2 {
+    color: #474747;
+    font-size: 30px;
+    font-family: Open Sans;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  .summary-sub-section {
+    margin-right: 71px;
+
+    margin: 0px;
+  }
+  
+  .summary-sub-section h3 {
+    color: #474747;
+    font-size: 25px;
+    font-family: Open Sans;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .summary-sub-section h4 {
+    color: #757575;
+    font-size: 20px;
+    font-family: Open Sans;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .summary-sub-section p {
+    color: #757575;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+    line-height: 28px;
+  }
+  
+  .summary-sub-section hr {
+    margin-bottom: 30px;
+  }
+  
+  .btn-download-cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    margin: 0px;
+    margin-left: 45px;
+  }  
+
 }
